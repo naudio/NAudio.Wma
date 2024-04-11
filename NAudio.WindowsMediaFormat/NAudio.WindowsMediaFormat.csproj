@@ -5,7 +5,6 @@
 		<Version>1.1.0</Version>
 		<Authors>Mark Heath, Yuval Naveh</Authors>
 		<Description>WMA Extension for NAudio</Description>
-		<PackageLicenseUrl></PackageLicenseUrl>
 		<PackageProjectUrl>https://github.com/naudio/NAudio.Wma</PackageProjectUrl>
 		<PackageTags>C# .NET audio sound</PackageTags>
 		<RepositoryUrl>https://github.com/naudio/NAudio.Wma</RepositoryUrl>
@@ -21,6 +20,10 @@
 
 	<ItemGroup>
 		<PackageReference Include="NAudio.Core" Version="2.2.1" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		  </PackageReference>
 	</ItemGroup>
 
 	<ItemGroup>
